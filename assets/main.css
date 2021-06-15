@@ -1,0 +1,52 @@
+#heronav{
+    display: flex; /*Para que los elementos hijos de nav se comporten de manera flexible*/
+    position: relative;
+    background-color: rgb(222, 198, 176);
+    width: 100%;
+    justify-content:space-around;
+    align-items: center; /*Alineación vertical de los items*/
+    padding: 0 20px 0 0px;
+    height: 90px;
+}
+
+.menu{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-weight: bold;
+}
+
+.heroimage{   
+    width:70%; 
+    position:relative;
+    margin-top: 0px; 
+    background-position: center;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+    #logo {
+        height: 90px;
+        width: 100px;
+        justify-self: start;
+
+    }
+    
+    #imageninicio{
+        background-image: url("img/home.jpg");
+        background-repeat:no-repeat;
+        width: 70%;
+        height: 600px;
+        background-position-x:center center;
+        background-size:100% 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        color: whitesmoke;
+    
+    }
